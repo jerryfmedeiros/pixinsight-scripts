@@ -1,0 +1,12 @@
+# Local backups
+*.bak
+
+# Output written next to the frames if a script is pointed at this folder
+SmartSorter_report.csv
+Rejected_Frames/
+
+# OS clutter
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
