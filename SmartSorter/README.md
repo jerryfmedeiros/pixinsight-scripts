@@ -148,18 +148,3 @@ The `z_` columns are useful for spotting frames that were close to the limit.
   that leaves the stars intact won't be caught. Pixel rejection during
   integration handles those.
 
-## Troubleshooting
-
-**"Unrecognised SubframeSelector measurements layout"**
-The column names in SubframeSelector's results changed in a new PixInsight
-version. Nothing was moved. The console shows the column list and the values
-for one frame; the names the script looks for are in the `METRICS` table at the
-top of the script (`fwhm`, `eccentricity`, `stars`, `median`,
-`psfsignalweight`, plus `path` or `filePath`).
-
-**"Not measured, left in place"**
-SubframeSelector couldn't process that file. It is kept, not rejected.
-
-**A group says "too few frames to judge"**
-Fewer than 5 comparable frames. Check the group name in the console; a
-different gain or exposure in the header puts frames in separate groups.
