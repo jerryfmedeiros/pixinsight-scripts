@@ -9,7 +9,7 @@ There are no tolerances to set. The limits come from the session itself, so
 the same script works on a steady night and a patchy one without tweaking.
 
 Tested with FITS files from N.I.N.A. 3.2 on PixInsight for Windows, including
-data on a network share.
+data on a network share (NAS).
 
 ## Usage
 
